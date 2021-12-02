@@ -35,7 +35,7 @@ services:
       app-network:
         ipv4_address: 172.20.0.3
   client:
-    image: 414600640364.dkr.ecr.us-east-1.amazonaws.com/testrunzclient:2
+    image: 414600640364.dkr.ecr.us-east-1.amazonaws.com/testrunzclient:latest
     container_name: myapp-react-client
     command: /usr/src/app/node_modules/.bin/nodemon app.js
     volumes:
